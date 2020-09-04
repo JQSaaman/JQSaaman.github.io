@@ -71,6 +71,8 @@ ol {
 ol li {
     color: black;
     font-family: monospace;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .move-hz {
