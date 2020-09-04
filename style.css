@@ -120,5 +120,17 @@ body {
 .move-gordelweg {
     position: absolute;
     top: 430px;
-    left: 500px;
+    left: 700px;
+}
+
+.move-dinnerguest {
+    position: absolute;
+    top: 430px;
+    left: 1050px;
+}
+
+.move-indemix {
+    position: absolute;
+    top: 430px;
+    left: 1400px
 }
