@@ -135,27 +135,7 @@ body {
     left: 1400px
 }
 
-p1 {
-    color: black;
-    font-family: monospace;
-}
-
-p2 {
-    color: black;
-    font-family: monospace;
-}
-
-p3 {
-    color: black;
-    font-family: monospace;
-}
-
-p4 {
-    color: black;
-    font-family: monospace;
-}
-
-p5 {
+.tekst-kleur {
     color: black;
     font-family: monospace;
 }
@@ -194,3 +174,7 @@ p5 {
     left: 1430px;
     font-weight: bold;
 }
+
+
+ 
+  
