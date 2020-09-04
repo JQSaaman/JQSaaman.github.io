@@ -110,30 +110,30 @@ body {
 
 .move-west {
     position: absolute;
-    top: 430px;
+    top: 490px;
     }
 
 .move-jantje {
     position: absolute;
-    top: 430px;
+    top: 490px;
     left: 350px;
 }
 
 .move-gordelweg {
     position: absolute;
-    top: 430px;
+    top: 490px;
     left: 700px;
 }
 
 .move-dinnerguest {
     position: absolute;
-    top: 430px;
+    top: 490px;
     left: 1050px;
 }
 
 .move-indemix {
     position: absolute;
-    top: 430px;
+    top: 490px;
     left: 1400px
 }
 
@@ -144,35 +144,35 @@ body {
 
 .p1-move {
     position: absolute;
-    top: 650px;
+    top: 710px;
     left: 60px;
     font-weight: bold;
 }
 
 .p2-move {
         position: absolute;
-        top: 650px;
+        top: 710px;
         left: 400px;
         font-weight: bold;
 }
 
 .p3-move {
     position: absolute;
-    top: 650px;
+    top: 710px;
     left: 735px;
     font-weight: bold;
 }
 
 .p4-move {
     position: absolute;
-    top: 650px;
+    top: 710px;
     left: 1055px;
     font-weight: bold;
 }
 
 .p5-move {
     position: absolute;
-    top: 650px;
+    top: 710px;
     left: 1430px;
     font-weight: bold;
 }
