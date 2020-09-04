@@ -134,3 +134,63 @@ body {
     top: 430px;
     left: 1400px
 }
+
+p1 {
+    color: black;
+    font-family: monospace;
+}
+
+p2 {
+    color: black;
+    font-family: monospace;
+}
+
+p3 {
+    color: black;
+    font-family: monospace;
+}
+
+p4 {
+    color: black;
+    font-family: monospace;
+}
+
+p5 {
+    color: black;
+    font-family: monospace;
+}
+
+.p1-move {
+    position: absolute;
+    top: 650px;
+    left: 60px;
+    font-weight: bold;
+}
+
+.p2-move {
+        position: absolute;
+        top: 650px;
+        left: 400px;
+        font-weight: bold;
+}
+
+.p3-move {
+    position: absolute;
+    top: 650px;
+    left: 735px;
+    font-weight: bold;
+}
+
+.p4-move {
+    position: absolute;
+    top: 650px;
+    left: 1055px;
+    font-weight: bold;
+}
+
+.p5-move {
+    position: absolute;
+    top: 650px;
+    left: 1430px;
+    font-weight: bold;
+}
