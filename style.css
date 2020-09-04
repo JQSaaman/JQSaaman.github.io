@@ -93,26 +93,10 @@ ol li {
 
 .move-sake {
     position: absolute;
-    top: 110px;
+    top: 107px;
     right: 0px;
 }
 
 body {
     margin-left: 35px;
-}
-
-.cover-size {
-    width: 200px;
-    height: 200px;
-}
-
-.move-west {
-    position: absolute;
-    top: 430px;
-    }
-
-.move-jantje {
-    position: absolute;
-    top: 430px;
-    left: 350px;
 }
