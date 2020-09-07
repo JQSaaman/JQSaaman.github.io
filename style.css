@@ -177,6 +177,28 @@ body {
     font-weight: bold;
 }
 
+table {
+    color: black;
+    font-family: monospace;
+    top: 300px;
+    width: 50%;
+}
+    
+table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+.bold {
+    font-weight: bold;
+}
+
+tr3 {
+    font-weight: bold;
+}
+
+
 
  
   
