@@ -1,10 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+
+
 body{
-    background-color: #D3D3D3;
+    background-image: url('https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg?cs=srgb&dl=pexels-steve-johnson-1484759.jpg&fm=jpg');
+    background-size: cover;
 }
 
 nav {
@@ -15,8 +19,9 @@ nav {
 }
 
 ul {
-    margin-left: 60px;
+    margin-left: 15px;
     position: fixed;
+    background-color: lightgray;
 }
 
 ul li {
@@ -27,8 +32,11 @@ ul li {
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    
+    border-radius: 1px;
+}
 
+ul li:hover {
+    background-color: black;
 }
 
 ul li a {
@@ -36,12 +44,12 @@ ul li a {
     text-decoration: none;
     font-size 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #1e1e1e;
+    color: black;
     padding: 0 20px 0 20px;
 }
 
 ul li a:hover {
-    color: red;
+    color: white;
 }
 
 h1 {
@@ -49,6 +57,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 h2 {
@@ -62,6 +71,7 @@ h2 {
 p {
     color: black;
     font-family: monospace;
+
 }
 
 ol {
@@ -110,31 +120,32 @@ body {
 
 .move-west {
     position: absolute;
-    top: 490px;
+    top: 700px;
+    left: 80px;
     }
 
 .move-jantje {
     position: absolute;
-    top: 490px;
-    left: 350px;
+    top: 700px;
+    left: 430px;
 }
 
 .move-gordelweg {
     position: absolute;
-    top: 490px;
-    left: 700px;
+    top: 700px;
+    left: 780px;
 }
 
 .move-dinnerguest {
     position: absolute;
-    top: 490px;
-    left: 1050px;
+    top: 700px;
+    left: 1130px;
 }
 
 .move-indemix {
     position: absolute;
-    top: 490px;
-    left: 1400px
+    top: 700px;
+    left: 1480px
 }
 
 .tekst-kleur {
@@ -144,37 +155,46 @@ body {
 
 .p1-move {
     position: absolute;
-    top: 710px;
-    left: 60px;
+    top: 920px;
+    left: 100px;
     font-weight: bold;
 }
 
 .p2-move {
         position: absolute;
-        top: 710px;
-        left: 400px;
+        top: 920px;
+        left: 480px;
         font-weight: bold;
 }
 
 .p3-move {
     position: absolute;
-    top: 710px;
-    left: 735px;
+    top: 920px;
+    left: 815px;
     font-weight: bold;
 }
 
 .p4-move {
     position: absolute;
-    top: 710px;
-    left: 1055px;
+    top: 920px;
+    left: 1135px;
     font-weight: bold;
 }
 
 .p5-move {
     position: absolute;
-    top: 710px;
-    left: 1430px;
+    top: 920px;
+    left: 1510px;
     font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 table {
@@ -190,15 +210,17 @@ table, th, td {
         padding: 5px;
       }
 
-.bold {
-    font-weight: bold;
+.vakje {
+    background-color: lightgray;
+    width: 95%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    
 }
-
-tr3 {
-    font-weight: bold;
-}
-
-
-
- 
   
+.wrapper {
+    margin-right: 5%;
+    margin-left: 5%;
+}
