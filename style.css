@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: url('https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg?cs=srgb&dl=pexels-steve-johnson-1484759.jpg&fm=jpg');
+    background-image: url('https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-1097930.jpg&fm=jpg');
     background-size: cover;
 }
 
@@ -223,4 +223,45 @@ table, th, td {
 .wrapper {
     margin-right: 5%;
     margin-left: 5%;
+}
+
+.trkleur {
+    background-color: darkgray;
+    color: white;
+}
+
+progress {
+    -webkit-appearance: none;
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    border-radius: 2px;
+    height: 40px;
+    background-color: red;
+}
+
+.move-begin {
+    width: 10%;
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}
+
+.move-duim {
+    width: 5%;
+    position: absolute;
+    top: 480px;
+    left: 1225px;
+}
+
+.move-gg {
+    width: 5%;
+    position: absolute;
+    top: 480px;
+    left: 1575px;
+    border: 1px solid black;
 }
