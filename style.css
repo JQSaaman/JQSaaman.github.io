@@ -29,21 +29,27 @@ ul li {
     display: inline-block;
     float: left;
     line-height: 50px;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 1px;
+   
 }
 
 ul li:hover {
-    background-color: black;
+    animation-name: background-color;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: scale(1.1);
+}
+
+@keyframes background-color {
+    100% {
+        background-color: black;
+    }
 }
 
 ul li a {
     display: block;
     text-decoration: none;
     font-size 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     padding: 0 20px 0 20px;
 }
@@ -71,11 +77,12 @@ h2 {
 p {
     color: black;
     font-family: monospace;
-
+    font-size: 14px;
 }
 
 ol {
     margin-left: 30px;
+    font-size: 14px
 }
 
 ol li {
@@ -122,30 +129,35 @@ body {
     position: absolute;
     top: 700px;
     left: 80px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 
 .move-jantje {
     position: absolute;
     top: 700px;
     left: 430px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .move-gordelweg {
     position: absolute;
     top: 700px;
     left: 780px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .move-dinnerguest {
     position: absolute;
     top: 700px;
     left: 1130px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .move-indemix {
     position: absolute;
     top: 700px;
-    left: 1480px
+    left: 1480px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .tekst-kleur {
@@ -217,6 +229,7 @@ table, th, td {
     padding: 10px;
     margin: 20px;
     border-radius: 25px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     
 }
   
@@ -230,6 +243,10 @@ table, th, td {
     color: white;
 }
 
+.wit {
+    background-color: white
+}
+
 progress {
     -webkit-appearance: none;
     width: 70%;
@@ -241,27 +258,31 @@ progress {
     border: 3px solid black;
     border-radius: 2px;
     height: 40px;
-    background-color: red;
 }
 
 .move-begin {
     width: 10%;
     position: absolute;
-    top: 460px;
+    top: 470px;
     left: 200px;
 }
 
 .move-duim {
     width: 5%;
     position: absolute;
-    top: 480px;
+    top: 505px;
     left: 1225px;
 }
 
 .move-gg {
     width: 5%;
     position: absolute;
-    top: 480px;
+    top: 507px;
     left: 1575px;
     border: 1px solid black;
 }
+
+#hover:hover {
+    transform: scale(1.1);
+}
+
