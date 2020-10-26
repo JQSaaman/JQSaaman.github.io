@@ -20,6 +20,7 @@ nav {
 
 ul {
     margin-left: 15px;
+    margin-bottom: 10px;
     position: fixed;
     background-color: lightgray;
 }
@@ -308,4 +309,10 @@ progress {
     top: 440px;
     left: 1467px;
     font-weight: bold;
+}
+
+h4 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
 }
